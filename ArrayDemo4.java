@@ -12,7 +12,7 @@ class ArrayDemo4{
 			System.out.print("\n\t Enter the values: ");
 			a[i]= sc.nextInt();
 		}
-		System.out.print("\n\tNow display the cube of each element of Array");
+		System.out.print("\n Now display the cube of each element of Array: ");
 		
 		for(i=0; i<=4; i++){
 			System.out.print("\n\n\t\t\ta["+i+"]= "+a[i]);
@@ -20,8 +20,10 @@ class ArrayDemo4{
 			System.out.print("\t\t\tCube= "+b[i]);
 			//System.out.print("\tCube= "+a[i]*a[i]*a[i]);
 		}
+		
+		System.out.print("\n Cubes are stored into another Array: ");
 		for(i=0; i<=4; i++){
-			System.out.print("\n\t\t\tb[]= "+b[i]);
+			System.out.print("\n\t\t\tb["+i+"]= "+b[i]);
 		}
 		
 		
